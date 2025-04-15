@@ -1,0 +1,28 @@
+/**
+ * @name unRefreshed
+ * @author x.x.v.i.i
+ * @description unRefreshed attempts to emulate the pre-Refreshed UI/UX using simple CSS
+ * @version 0.0.1
+ */
+/*Title Bar - class="base_c48ade"*/
+@supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {.visual-refresh .base_c48ade {grid-template-rows: [top] var(--size-24) [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;}}
+.bar_c38106 {max-height: 24px !important; min-height: 0px;}
+.title_c38106 { justify-content: left; margin-left: 10px;}
+.visual-refresh .guildIcon__85643 {display: none;}
+/*Topbar*/
+.visual-refresh .container__133bf {border-top: 1px solid transparent !important;}
+/*Left Servers Sidebar - aria-label="Servers sidebar"*/
+.visual-refresh .wrapper_ef3116 {margin-bottom: unset !important;}
+.stack_dbd263 {gap: 0.5em !important;} /*{gap: var(--space-md) !important;}*/
+foreignObject, .visual-refresh .guildIcon__48112 {border-radius: 50px !important; border: 0px solid transparent;}
+foreignObject:has(.folder__48112) {border-radius: 0px !important; border: 0px solid transparent;}
+.visual-refresh .sidebar_c48ade:after {background: transparent !important;}
+/*Direct Messages - data-list-id="private-channels-uid_77"*/
+.visual-refresh .scroller__99e7c {margin-bottom: calc(var(--custom-app-panels-height, 0) + 0px) !important;}
+/*Channel List - class="container__2637a"*/
+.visual-refresh .container__2637a {margin-bottom: -2% !important;}
+/*User Area - aria-label="User area"*/
+.visual-refresh .panels_c48ade {border-radius: unset !important; border: unset !important; width: -webkit-fill-available !important; margin-left: calc(var(--size-64, 0) + 0px); bottom: 0px !important;}
+.visual-refresh .button_e131a9, .visual-refresh .experimentButton_e131a9 {border-radius: var(--radius-xs) !important;}
+/*Settings*/
+.contentTransitionWrap__23e6b {contain: inline-size;}
