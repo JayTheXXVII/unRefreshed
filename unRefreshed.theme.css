@@ -5,7 +5,7 @@
  * @version 0.0.1
  */
 /*Title Bar - class="base_c48ade"*/
-@supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {.visual-refresh .base_c48ade {grid-template-rows: [top] var(--size-24) [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;}}
+@supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {.visual-refresh .base_c48ade {grid-template-rows: [top] var(--size-24) [titleBarEnd] min-content [noticeEnd] 1fr [end];}}
 .bar_c38106 {max-height: 24px !important; min-height: 0px;}
 .title_c38106 { justify-content: left; margin-left: 10px;}
 .visual-refresh .guildIcon__85643 {display: none;}
