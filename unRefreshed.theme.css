@@ -22,7 +22,8 @@ foreignObject:has(.folder__48112) {border-radius: 0px !important; border: 0px so
 /*Channel List - class="container__2637a"*/
 .visual-refresh .container__2637a {margin-bottom: -2% !important;}
 /*User Area - aria-label="User area"*/
-.visual-refresh .panels_c48ade {border-radius: unset !important; border: unset !important; width: -webkit-fill-available !important; margin-left: calc(var(--size-64, 0) + 0px); bottom: 0px !important;}
+.visual-refresh .panels_c48ade {border-radius: unset !important; border: unset !important; width: -webkit-fill-available !important; margin-left: calc(var(--size-64, 0) + 1px); bottom: 0px !important;}
 .visual-refresh .button_e131a9, .visual-refresh .experimentButton_e131a9 {border-radius: var(--radius-xs) !important;}
+.visual-refresh .container__37e49 {margin-left: unset !important;}
 /*Settings*/
 .contentTransitionWrap__23e6b {contain: inline-size;}
