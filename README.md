@@ -8,4 +8,4 @@
 ![Screenshot of unRefreshed](https://jaythexxvii.github.io/Assets/unRefreshed-Logo.png)
 
 
-![Screenshot of unRefreshed](https://jaythexxvii.github.io/Assets/unRefreshed.gif)
+![Screenshot of unRefreshed](https://jaythexxvii.github.io/Assets/unRefreshed-logo.gif)
