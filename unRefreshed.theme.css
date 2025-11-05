@@ -15,7 +15,7 @@
 .visual-refresh .wrapper_ef3116 {margin-bottom: unset !important;}
 .stack_dbd263 {gap: 0.5em !important;} /*{gap: var(--space-md) !important;}*/
 foreignObject, .visual-refresh .folderPreviewGuildIcon__48112 {border-radius: 50px !important; border: 0px solid transparent;}
-foreignObject:has(.hiddenVisually_b18fe2) {border-radius: 0px !important; border: 0px solid transparent;}
+foreignObject:has(.hiddenVisually_b18fe2) {border-radius: 50% !important; border: 0px solid transparent;}
 .visual-refresh .sidebar__5e434:after {background: transparent !important;}
 /*Direct Messages - data-list-id="private-channels-uid_77"*/
 .visual-refresh .scroller__99e7c {margin-bottom: calc(var(--custom-app-panels-height, 0) + 0px) !important;}
