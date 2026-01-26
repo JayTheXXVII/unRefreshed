@@ -2,15 +2,14 @@
  * @name unRefreshed
  * @author x.x.v.i.i
  * @description unRefreshed attempts to emulate the pre-Refreshed UI/UX using simple CSS
- * @version 0.0.2
+ * @version 0.0.5
  */
-/*Title Bar - class="base__5e434"*/
+/*Title Bar - class="_5e434347c823b592-base"*/
 @supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {.visual-refresh .base__5e434 {grid-template-rows: [top] var(--size-24) [titleBarEnd] min-content [noticeEnd] 1fr [end];}}
 .bar_c38106 {max-height: 24px !important; min-height: 0px;}
 .title_c38106 { justify-content: left; margin-left: 10px;}
 .guildIcon_edbb22, .visual-refresh .guildIcon__85643 {display: none;}
-/*Topbar*/
-.visual-refresh .container__133bf {border-top: 1px solid transparent !important;}
+.winButton_c38106 {max-height: 24px !important; min-height: 0px;}
 /*Left Servers Sidebar - aria-label="Servers sidebar"*/
 .visual-refresh .wrapper_ef3116 {margin-bottom: unset !important;}
 .stack_dbd263 {gap: 0.5em !important;} /*{gap: var(--space-md) !important;}*/
@@ -19,13 +18,13 @@ foreignObject:has(.hiddenVisually_b18fe2) {border-radius: 50% !important; border
 .visual-refresh .sidebar__5e434:after {background: transparent !important;}
 /*Direct Messages - data-list-id="private-channels-uid_77"*/
 .visual-refresh .scroller__99e7c {margin-bottom: calc(var(--custom-app-panels-height, 0) + 0px) !important;}
-/*Channel List - class="container__2637a"*/
+/*Channel List - class="_2637a2609f343032-container"*/
 .visual-refresh .container__2637a {margin-bottom: -2% !important;}
 /*User Area - aria-label="User area" - .visual-refresh .panels__5e434:has(.container_791eb8:first-child)*/
 section.panels__5e434 {border-radius: unset !important; /* border: unset !important;*/ width: -webkit-fill-available !important; margin-left: calc(var(--size-64, 0) + 1px); bottom: 0px !important;}
 .visual-refresh .button_e131a9, .visual-refresh .experimentButton_e131a9 {border-radius: var(--radius-xs) !important;}
-.visual-refresh .container__37e49 {margin-left: unset !important;}
-.align-chat-input .container__37e49 {border-radius: 0px !important;}
+.visual-refresh .container__37e49 {margin-left: unset !important; border-radius: 0px !important;}
+.align-chat-input .container__37e49, .activityPanel__5e434 {border-radius: 0px !important;}
 /*Settings*/
 .contentTransitionWrap__23e6b {contain: inline-size;}
 /*Channel Alignment*/
@@ -33,3 +32,10 @@ section.panels__5e434 {border-radius: unset !important; /* border: unset !import
 /*Remove Dropdown Arrow*/
 .micButtonParent__37e49 .buttonChevron__37e49, .micButtonParent__37e49 .buttonChevronIcon__37e49 {display: none !important;}
 .micButtonParent__37e49 .micButtonWithMenu__37e49 {border-bottom-right-radius: 8px; border-top-right-radius: 8px;}
+/*Settings Sidebar & Main Page & Top Bar*/
+.sidebar__409aa.theme-dark.theme-midnight.images-dark, .scroller__6131a.auto_d125d2.scrollerBase_d125d2, .contentHeader_e9e3ed.theme-dark.theme-midnight.images-dark {background: black;}
+/*Sidebar Top Fade*/
+background: linear-gradient(to bottom, black, transparent);
+/*Theme Settings */
+.bd-store-card, .game_cc46f0 {background-color: var(--background-mod-subtle);}
+
